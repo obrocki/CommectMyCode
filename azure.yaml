@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
+
+name: demystifying-rag-dotnet
+metadata:
+  template: demystifying-rag-dotnet@0.0.1-beta
+
+hooks:
+  postprovision:
+    posix: 
+      shell: sh
+      run: azd env get-values | grep -i 'ENDPOINT'
+      interactive: true
+      continueOnError: true
+    windows:
+      shell: pwsh
+      run: azd env get-values | Where-Object { $_ -match "ENDPOINT" }
+      interactive: true
+      continueOnError: true

@@ -20,7 +20,21 @@ This sample has been tested with the following models:
 
 ### Using .NET [Secret Manager](https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets)
 
-Configure an Azure OpenAI endpoint
+Configure an Azure OpenAI
+
+Supporting Azure infrastructure can be deployed manually in Azure Portal or using [Azure Developer CLI](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/install-azd?tabs=winget-windows%2Cbrew-mac%2Cscript-linux&pivots=os-windows):
+
+```console
+
+azd auth login
+
+azd provision
+
+azd down
+
+```
+
+Created infrastructure resources are used for Azure OpenAI Services in code:
 
 ```powershell
 cd CommentMyCode

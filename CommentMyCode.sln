@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34004.107
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommentMyCode", "CommentMyCode\CommentMyCode.csproj", "{06D7CD7A-78F0-4284-878C-ADCC733D18D8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommentMyCode", "src\CommentMyCode.csproj", "{06D7CD7A-78F0-4284-878C-ADCC733D18D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
