@@ -15,7 +15,7 @@
     <PackageReference Include="Microsoft.SemanticKernel" Version="1.0.0-beta8" />
     <PackageReference Include="Microsoft.SemanticKernel.Connectors.Memory.AzureCognitiveSearch" Version="1.0.0-beta8" />
     <PackageReference Include="Microsoft.SemanticKernel.Connectors.Memory.Qdrant" Version="1.0.0-beta8" />
-    <PackageReference Include="Microsoft.SemanticKernel.Plugins.Memory" Version="1.0.0-beta8" />
+    <PackageReference Include="Microsoft.SemanticKernel.Plugins.Memory" Version="1.0.0-rc4" />
   </ItemGroup>
 
 </Project>
